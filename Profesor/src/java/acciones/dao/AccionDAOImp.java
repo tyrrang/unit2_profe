@@ -115,7 +115,7 @@ public class AccionDAOImp implements AccionDAO{
             if (rs.next()) {
 
                 accion = new Accion(
-                        rs.getInt("id_profesor"),
+                        rs.getInt("id_accion_remedial"),
                         rs.getString("nombre"),
                         rs.getString("activo"),
                         rs.getString("materia"),
